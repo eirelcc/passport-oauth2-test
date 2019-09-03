@@ -1,0 +1,17 @@
+div
+  strong Name
+  br
+  = name
+
+div
+  strong Email
+  br
+  = email
+
+div
+  strong Gravatar
+  br
+  img(src=avatar_url)
+
+form(method="POST" action="/logout")
+  input(type="submit" value="Logout")

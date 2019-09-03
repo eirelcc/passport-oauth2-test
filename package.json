@@ -1,0 +1,24 @@
+{
+  "name": "oauth-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-oauth2": "^1.4.0",
+    "pug": "^2.0.3",
+    "uuid": "^3.3.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
